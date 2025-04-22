@@ -124,6 +124,17 @@ arr.filter(x => x > 2); // Filter elements
 
 Arrays in JavaScript are versatile and powerful. Understanding the types and available methods helps write clean and efficient code.
 
+====================
+
+Object
+
+In JavaScript, objects are collections of related data and/or functionality. These are stored as key-value pairs, where the keys are 
+strings (called properties), and the values can be any data type — numbers, strings, arrays, functions, other objects, etc.
+
+====================
+
+What Is Hoisting?
+Hoisting means that variable and function declarations are moved to the top of their scope (before code execution), behind the scenes by JavaScript.
 
 
 
