@@ -134,9 +134,43 @@ strings (called properties), and the values can be any data type — numbers, st
 ====================
 
 What Is Hoisting?
-Hoisting means that variable and function declarations are moved to the top of their scope (before code execution), behind the scenes by JavaScript.
+Hoisting means that variable and function declarations are moved to the top of their scope (before code execution),
+behind the scenes by JavaScript.
+
+======================
+
+Scoping is all about where in your code a variable or function can be seen or used.
+Think of your code like a series of boxes inside other boxes. Each box represents a different scope:
+
+1) Global Scope
+Global Scope is like the big outer box. If you write a variable here, it can be used anywhere inside your program.
+
+2) Function Scope
+Function Scope is like a smaller box inside the global one. If you create a variable inside a function, only that 
+function can see or use it.
+
+3) Block Scope
+Block Scope is even smaller—like a box inside a function or a loop or an if statement. If you use let or const to 
+declare a variable inside curly braces {}, that variable stays in that block and can’t be used outside.
+
+4) Lexical Scope
+Lexical Scope means that when you write a function inside another function, the inner function can see and use the 
+variables from the outer one. It's like the inner box can peek outside to see what's in the bigger box.
 
 
+=======================================
+
+What is promise
+
+A Promise is a way to handle asynchronous tasks in JavaScript.
+It acts as a placeholder for a value that will be available in the future—either a success (resolved) or a failure (rejected).
+
+A Promise can be in three states:
+pending – It’s still working on it.
+fulfilled – It succeeded and gave a result.
+rejected – Something went wrong.
+
+=========================================
 
 
 
